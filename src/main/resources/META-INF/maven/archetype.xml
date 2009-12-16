@@ -1,0 +1,12 @@
+<archetype>
+  <id>maven-archetype-nar-jni</id>
+  <resources>
+    <resource>src/main/c/NativeApp.c</resource>
+  </resources>
+  <sources>
+    <source>src/main/java/NativeApp.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/NativeAppTest.java</source>
+  </testSources>
+</archetype>
